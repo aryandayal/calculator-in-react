@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+.content {
+  margin: auto;
+  height: 450px;
+  width: 250px;
+  text-align: center;
+}
+
+#calBody {
+  width: 250px;
+  height: auto;
+  border: 4px solid black;
+  background-color: darkgray;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+}
+
+.button {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  background-color: darkgray;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+#result {
+  width: 100%;
+  height: 60px;
+  font-size: 25px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+h1 {
+  margin: 20px;
+}
